@@ -148,28 +148,6 @@ section:nth-child(odd) {
   line-height: normal;
 }
 
-.rectangle-2 {
-  position: absolute;
-  width: 160px;
-  height: 31px;
-  top: 580px;
-  left: 125px;
-  border-radius: 5px;
-  background: linear-gradient(180deg, rgba(255, 168.3, 0, 0.69) 0%, rgb(255, 172.92, 13.6) 100%);
-}
-
-.makanan {
-  top: 5px;
-  left: 48px;
-  font-family: "Poppins";
-  font-weight: 400;
-  font-size: 17px;
-  position: absolute;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .popular-foods {
   position: absolute;
   top: 875px;
@@ -598,14 +576,6 @@ section:nth-child(odd) {
   font-size: 10px;
   letter-spacing: 0;
   line-height: normal;
-}
-
-.rectangle-4 {
-  height: 215px;
-  top: 22 50px;
-  background-color: #d9d9d9;
-  position: absolute;
-  width: 1583px;
 }
 
 .rectangle-5 {

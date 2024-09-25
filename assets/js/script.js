@@ -60,16 +60,16 @@ const showHiddenPass = (loginPass, loginEye) =>{
  document.getElementById('login__form'),addEventListener('submit', function(event){
     event.preventDefault();
 
-    const correctUsername = "rizkyfebrian24022008@gmail.com"
-    const correctPassword = "12345678"
+    const correctUsername = "guest123@gmail.com"
+    const correctPassword = "guest2024"
 
     const username = document.getElementById('login-email').value;
     const password = document.getElementById('login-pass').value;
 
     if (username === correctUsername && password === correctPassword){
-        alert('Login Berhasil');
+        alert('Login was successful');
         window.location.href = 'index.html';
     }else{
-        alert('Aduhh passwordmu salah!!');
+        alert('You have the wrong password or email!!!');
     }
 })
